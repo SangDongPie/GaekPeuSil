@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int sum(int ar2[][4], int rows) {
+int sum(int ar2[5][4], int rows) {
 	int ss = 0;
 	for (int i = 0; i < rows; i++)
 		for (int j = 0; j < 4; j++)
