@@ -8,8 +8,8 @@ void sum3sine(short* data, short *data2, short *data3, short *data4, float amp1,
     float dt = 1. / 44100.0;
     for (int i = 0; i < (5 * 44100); i++) {
         data2[i] = amp1 * sin(2.0 * pi * f1 * i * dt);
-        data3[i] = amp1 * sin(2.0 * pi * f2 * i * dt);
-        data4[i] = amp1 * sin(2.0 * pi * f3 * i * dt);
+        data3[i] = amp2 * sin(2.0 * pi * f2 * i * dt);
+        data4[i] = amp3 * sin(2.0 * pi * f3 * i * dt);
         data[i] = amp1 * sin(2.0 * pi * f1 * i * dt) + amp2 * sin(2.0 * pi * f2 * i * dt) + amp3 * sin(2.0 * pi * f3 * i * dt);
     }
 }
