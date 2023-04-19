@@ -70,7 +70,7 @@ int main() {
     //txt파일 작성
     ofstream x3;
     x3.open("new_wav.txt");
-    for (int i = 0; i < fs[0]/441; i++) {
+    for (int i = 0; i < fs[0]/44.1; i++) {
         x3 << i <<  " " << data2[i] << " " << data3[i] << " " << data4[i] << " " << data[i] << endl;
     }
     x2.close();

@@ -1,3 +1,9 @@
-﻿  assignment2.cpp
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\assignment2.cpp(23,14): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  7주차과제 이상동수정.cpp
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(7,30): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(8,28): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(10,25): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(11,25): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(12,25): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(13,91): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(28,30): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
   GaekPeuSil.vcxproj -> C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\Debug\GaekPeuSil.exe
