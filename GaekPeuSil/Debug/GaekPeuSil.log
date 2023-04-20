@@ -1,10 +1,16 @@
-﻿  7주차과제 이상동수정.cpp
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(5,26): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(8,30): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(9,28): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(11,25): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(12,25): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(13,25): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 이상동수정.cpp(14,91): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+﻿  7주차과제 악보읽기.cpp
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(6,26): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(17,34): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(18,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(19,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(20,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(23,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(29,30): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(31,14): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(33,67): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(34,19): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(77,37): warning C4244: '초기화 중': 'float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(85,43): warning C4244: '인수': 'float'에서 'std::streamsize'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(15): warning C4715: 'getLength': 모든 제어 경로에서 값을 반환하지는 않습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(24): warning C4715: 'getfrequency': 모든 제어 경로에서 값을 반환하지는 않습니다.
   GaekPeuSil.vcxproj -> C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\Debug\GaekPeuSil.exe
