@@ -1,10 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
-#include <string>
 using namespace std;
 const float pi = 3.141592;
-int* SampleRate;
 int n;
 float k = 0;
 
@@ -26,7 +24,6 @@ int getAmplitude(int* e) {
     return *e * 1000;
 }
 void makedata(float* T, int* a, float* f, short* data, int n, int* SR) {
-    const float pi = 3.141592;
     int p = 0;
     float dt = 1. / *SR;
     for (int i = 0; i < n; i++) {
@@ -51,8 +48,7 @@ int main() {
     int* eu, *ss, *a;
     float* f, *T;
     char* hh;
-    string text;
-
+ 
     ifstream zz("piece.txt");
 
     zz >> n; // 음표가 몇 개인지 읽기
@@ -62,7 +58,7 @@ int main() {
     a = new int[n];
     f = new float[n];
     hh = new char[n];
-    cout << n << "notes" << endl;
+    cout << n << " notes" << endl;
 
     for (int i = 0; i < n; i++) { 
         zz>> eu[i] >> hh[i] >> ss[i];  // eu ss는 int이고, hh는 char
