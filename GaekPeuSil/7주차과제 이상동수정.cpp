@@ -16,20 +16,20 @@ void sum3sine(short* data, short *data2, short *data3, short *data4, float amp1,
 int main() {
     char header[44];
     ifstream xx("Beatles.wav", ios::binary | ios::in);
-    if (!xx) return 666;  // ¸¸ÀÏ ÆÄÀÏÀÌ ¿­¸®Áö ¾ÊÀ¸¸é ³¡³½´Ù. 
+    if (!xx) return 666;  // ë§Œì¼ íŒŒì¼ì´ ì—´ë¦¬ì§€ ì•Šìœ¼ë©´ ëë‚¸ë‹¤. 
     xx.read(header, 44 * sizeof(char));
     short* n;   n = (short*)(header + 22);  cout << *n << endl; //numchannels
     int* fs;   fs = (int*)(header + 24);  cout << *fs << endl; //samplerate
     int* b;   b = (int*)(header + 28);  cout << *b << endl; //byterate
 
-    int N = fs[0] * 10;   // 10ÃÊ ºĞ·®
+    int N = fs[0] * 10;   // 10ì´ˆ ë¶„ëŸ‰
     fs[0] = 4410000;
-    short* data; data = new short[fs[0]]; // 1ÃÊ°£ µ¥ÀÌÅÍ ÀúÀåÇÒ ºĞ·®
+    short* data; data = new short[fs[0]]; // 1ì´ˆê°„ ë°ì´í„° ì €ì¥í•  ë¶„ëŸ‰
     const float pi = 3.141592;
     *n = 1;
     *b = n[0] * fs[0] * sizeof(short);
-    //Sample 1°³°¡ Â÷ÁöÇÏ´Â byte) x (1ÃÊ´ç Sample ¼ö) x (Ã¤³Î ¼ö)
-    //= (Sample 1°³°¡ Â÷ÁöÇÏ´Â byte) x 441000 x 1
+    //Sample 1ê°œê°€ ì°¨ì§€í•˜ëŠ” byte) x (1ì´ˆë‹¹ Sample ìˆ˜) x (ì±„ë„ ìˆ˜)
+    //= (Sample 1ê°œê°€ ì°¨ì§€í•˜ëŠ” byte) x 441000 x 1
 
     short* NumChannels;
     NumChannels = (short*)(header + 22);
@@ -41,16 +41,15 @@ int main() {
     BitsPerSample = (short*)(header + 34);
     cout << *BitsPerSample << endl;
 
-    data = new short[N * 5];    //44100 -> 1ÃÊ, Áï 5 * NÀº 5ÃÊ¸¦ ÀÇ¹Ì
+    data = new short[N * 5];    //44100 -> 1ì´ˆ, ì¦‰ 5 * Nì€ 5ì´ˆë¥¼ ì˜ë¯¸
 
     float amp1 = 10000.0;
     float f1 = 440.0;
-
     float amp2 = 5000;
     float f2 = 220.0;
-
     float amp3 = 7500;
     float f3 = 330;
+    
     short* data2;
     short* data3;
     short* data4;
@@ -58,7 +57,7 @@ int main() {
     data3 = new short [fs[0]];
     data4 = new short [fs[0]];
 
-    sum3sine(data, data2, data3, data4, amp1, f1, amp2, f2, amp3, f3); //¹ÙÀÌ³Ê¸® ÆÄÀÏ ÀÛ¼º
+    sum3sine(data, data2, data3, data4, amp1, f1, amp2, f2, amp3, f3); //ë°”ì´ë„ˆë¦¬ íŒŒì¼ ì‘ì„±
     ofstream x2("my.wav", ios::binary | ios::out);
     if (!x2)return 666;
     *NumChannels = 1;
@@ -67,7 +66,7 @@ int main() {
     x2.write(header, sizeof(header));
     x2.write((char*)data, fs[0]*5 * sizeof(short));
 
-    //txtÆÄÀÏ ÀÛ¼º
+    //txtíŒŒì¼ ì‘ì„±
     ofstream x3;
     x3.open("new_wav.txt");
     for (int i = 0; i < fs[0]/44.1; i++) {
