@@ -1,15 +1,5 @@
-﻿  7주차과제 악보읽기.cpp
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(5,26): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(15,34): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(16,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(17,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(18,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(21,39): warning C4305: 'return': 'double'에서 'float'(으)로 잘립니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(28,14): warning C4244: '초기화 중': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(30,67): warning C4244: '=': 'double'에서 'short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(31,19): warning C4244: '+=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(74,37): warning C4244: '초기화 중': 'float'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(82,43): warning C4244: '인수': 'float'에서 'std::streamsize'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(13): warning C4715: 'getLength': 모든 제어 경로에서 값을 반환하지는 않습니다.
-C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\7주차과제 악보읽기.cpp(22): warning C4715: 'getfrequency': 모든 제어 경로에서 값을 반환하지는 않습니다.
+﻿  소스.cpp
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\소스.cpp(10,37): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\소스.cpp(11,41): warning C4244: 'return': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\GaekPeuSil\소스.cpp(18,14): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   GaekPeuSil.vcxproj -> C:\Users\이상동\OneDrive - 경희대학교\02 객체프로그래밍및실습\기타\GaekPeuSil\Debug\GaekPeuSil.exe
