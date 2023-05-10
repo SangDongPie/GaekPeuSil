@@ -1,34 +1,28 @@
-#include<iostream>
-#include<fstream>
+#include <iostream>
 using namespace std;
 
-class FC {
+class a {
 public:
-	FC() {};
-	FC(float cc) { c = cc; f = getF(); };
-	float c, f;
-	float getF() { return (c * 9. / 5. + 32.0); }
-	float getC() { return ((f - 32.0) * 5. / 9.); }
+    float x, y, * aa = nullptr;
+    ~a() {
+        if (aa != nullptr) {
+            delete aa; // error now
+            cout << " done \n";
+        }
+        else { cout << " none \n"; };
+    }
 };
 
-class CITY {
-public:
-	CITY() {
-		for (int i = 0; i < 12; i++) {
-			CF[i] = i + 5;
-		}
-	};
-	FC CF[12];
-};
-
-int main() {
-	FC CF1(36.5);
-	CITY seoul;
-	for (int i = 0; i < 12; i++) {
-		cout << seoul.CF[i].f << endl;
-	}
-	return 0;
+void main() {
+    a b;
+    b.~a();
+    cout << b.x << "  ";
+    b.aa = new float[10000];
+    b.x = 200;
+    b.aa[10] = 100;
+    cout << b.x << "  ";
+    cout << b.aa[10] << endl;
+    b.~a();
+    cout << b.x << "  ";
+    cout << b.aa[10] << endl;
 }
-
-
-
